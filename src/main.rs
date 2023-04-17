@@ -289,7 +289,7 @@ fn render_pokes<'a>(poke_list_state: &ListState) -> (List<'a>, Table<'a>) {
             Style::default().add_modifier(Modifier::BOLD),
         )),
         Cell::from(Span::styled(
-            "Age",
+            "Evo",
             Style::default().add_modifier(Modifier::BOLD),
         )),
         Cell::from(Span::styled(
